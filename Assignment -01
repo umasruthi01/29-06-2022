@@ -1,0 +1,49 @@
+std={}
+n=int(input("enter no of employees:"))
+for i in range(1,n+1):
+    l=[]
+    name=input("enter name of the employee:") 
+    l.append(name)
+    designation=input("enter desig of the employee:")
+    l.append(designation)
+    empsal=int(input("enter salary of the employee:"))
+    l.append(empsal)
+    empphno=int(input("enter employee phno:"))
+    l.append(empphno)
+    std[i]=l
+print(std)
+
+
+OUTPUT:
+
+enter no of employees:
+3
+enter name of the employee:
+Tommuuu
+enter desig of the employee:
+Manager
+enter salary of the employee:
+20000
+enter employee phno:
+9876543210
+enter name of the employee:
+Shrutzz
+enter desig of the employee:
+CEO
+enter salary of the employee:
+75000
+enter employee phno:
+7896543218
+enter name of the employee:
+Lucky
+enter desig of the employee:
+HR
+enter salary of the employee:
+45000
+enter employee phno:
+7654321789
+{1: ['Tommuuu', 'Manager', 20000, 9876543210], 2: ['Shrutzz', 'CEO', 75000, 7896543218], 3: ['Lucky', 'HR', 45000, 7654321789]}
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
